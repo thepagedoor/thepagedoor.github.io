@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar {
+    background-color: #d6f5d6;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo a {
+    color: #090909;
+    text-decoration: none;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optionally, make the text bold */
+  }
+  
+  
+  .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links ul li a {
+    color: #050505;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+
+  /* For screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .logo a {
+    font-size: 20px; /* Adjust the font size for mobile */
+  }
+}
+
+  
+
+
+
+.banner-content {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .banner-text {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .heading {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .desc {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .cta-box {
+    margin-top: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .partner {
+    margin: 0 20px;
+  }
+  
+  .partner p {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333;
+  }
+
+
+  
+
+.first {
+    text-align: center;
+    margin-bottom: 40px; /* Adjust the margin as needed */
+  }
+  
+.first a {
+    display: block;
+    text-decoration: none;
+  }
+  
+.first img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .subheading {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  .text {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #666; /* Adjust the text color as needed */
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+
+  .second {
+    text-align: center;
+    margin-bottom: 40px; /* Adjust the margin as needed */
+  }
+  
+  .second a {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .second img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .third {
+    text-align: center;
+    margin-bottom: 40px; /* Adjust the margin as needed */
+  }
+  
+  .third a {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .third img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .bottom {
+    text-align: center;
+    padding: 50px 20px; /* Adjust the padding as needed */
+  }
+  
+  .heading {
+    font-size: 36px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  .section-image {
+    margin-top: 30px; /* Adjust the margin as needed */
+  }
+  
+  .bottom-content {
+    margin-top: 30px; /* Adjust the margin as needed */
+  }
+  
+  .desc {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #666; /* Adjust the color as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+  }
+  
+  .desc span {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Adjust the hover background color as needed */
+  }
+  
+
+
+
+
+
+
+
+  .footer-nav {
+    background-color: #daf5e0 !important; /* Adjust the background color as needed */
+    padding: 40px 20px; /* Adjust the padding as needed */
+  }
+  
+  
+  .middle-footer, .footer-links, .bottom-footer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .flexSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-links li, .bottom-footer li {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #333; /* Adjust the text color as needed */
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Adjust the line color as needed */
+    margin: 20px 0;
+  }
+  
+  .bottom-footer li {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  
+  .mr20 {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .mr20 a {
+    color: #333; /* Adjust the text color as needed */
+  }
+  
+  .mr20 a:hover {
+    text-decoration: underline;
+  }
+  
+  .call-us {
+    display: flex;
+    align-items: center;
+  }
+  
+  .call {
+    font-weight: bold;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .number {
+    text-decoration: none;
+    color: #007bff; /* Adjust the text color as needed */
+  }
+  
+  .number:hover {
+    text-decoration: underline;
+  }
+  
+
